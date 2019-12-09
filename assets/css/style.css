@@ -8,7 +8,6 @@ body {
     color: #333;
     font-size: 18px;
     line-height: 150%;
-    color: #333;
     background: #efeee7;
     background-image: url("../images/background.png");
   }
@@ -32,9 +31,11 @@ body {
     .contact {
         float: right;
     }
+
     .index {
         padding-right: 30px;
         border-right: lightblue 1px solid;
+        color: #333333;
     }
 
     .portfolio {
@@ -45,9 +46,6 @@ body {
     .contact {
         padding-left: 30px;
     }
-
-    
-
 
   .header {
       position: fixed;
@@ -96,6 +94,8 @@ body {
       padding: 10px;
       border-top: 10px solid rgb(1, 1, 31);
       width: 100%;
+      float: bottom;
+      bottom: 0;
   }
 
 
