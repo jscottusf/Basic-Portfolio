@@ -30,22 +30,25 @@ header {
 .portfolio,
 .contact {
   float: right;
+  text-transform: uppercase;
 }
 
 .index {
+  height: 22.px;
   padding-right: 30px;
   margin-top: 40px;
   border-right: lightblue 1px solid;
-  color: #333333;
 }
 
 .portfolio {
+  height: 22.px;
   padding: 0px 30px;
   margin-top: 40px;
   border-right: lightblue 1px solid;
 }
 
 .contact {
+  height: 22.px;
   padding-left: 30px;
   margin-top: 40px;
 }
@@ -57,6 +60,31 @@ header {
   float: left;
   color: whitesmoke;
   background-color: rgb(0, 0, 39);
+}
+
+.index a,
+.portfolio a,
+.contact a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.index a:hover,
+.portfolio a:hover,
+.contact a:hover {
+  border-bottom: 1px solid black;
+}
+
+.index a:hover,
+.portfolio a:hover,
+.contact a:hover {
+  color: black;
+}
+
+.active-nav-link a {
+  color: black !important;
+  border-bottom: 1px solid black;
 }
 
 #index {
