@@ -1,6 +1,10 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   padding: 0px;
-  margin: 0px;
   border: 0px;
   font-family: "Lato", sans-serif;
   font-size: 18px;
@@ -10,6 +14,14 @@ body {
   line-height: 150%;
   background: #efeee7;
   background-image: url("../images/background.png");
+}
+
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
 }
 
 header {
@@ -113,13 +125,14 @@ hr {
   background-color: whitesmoke;
 }
 
-#bio {
+img {
   float: left;
   margin-right: 20px;
 }
 
-#break {
-  margin: 100px;
+.push {
+  margin: 50px;
+  height: 50px;
 }
 
 footer {
@@ -128,8 +141,9 @@ footer {
   padding: 10px;
   border-top: 10px solid rgb(1, 1, 31);
   width: 100%;
-  float: bottom;
   bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 /* CSS code for portfolio.html */
@@ -205,5 +219,3 @@ input[type=submit]:hover {
   background-color: rgb(81, 81, 238);
   transition: 0.5s;
 }
-
-
