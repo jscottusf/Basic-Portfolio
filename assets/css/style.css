@@ -47,21 +47,21 @@ header {
 
 .index {
   height: 22.px;
-  padding-right: 30px;
+  padding-right: 5px;
   margin-top: 40px;
   border-right: lightblue 1px solid;
 }
 
 .portfolio {
   height: 22.px;
-  padding: 0px 30px;
+  padding: 0px 5px;
   margin-top: 40px;
   border-right: lightblue 1px solid;
 }
 
 .contact {
   height: 22.px;
-  padding-left: 30px;
+  padding-left: 5px;
   margin-top: 40px;
 }
 
